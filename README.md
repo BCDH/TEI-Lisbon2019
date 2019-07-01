@@ -15,7 +15,7 @@ At the moment, it's quite empty, but don't worry, we'll fill it up with content 
 5. Fork the repository ![Снимок экрана 2019-07-01 в 15.31.52](https://i.imgur.com/UFKV0vY.png)
 6. Now (1) Make sure you are in the forked repository; (2) click on "Clone or download"; and (3) select "Open in Desktop" ![Снимок экрана 2019-07-01 в 15.36.05](https://i.imgur.com/HO3QPFV.png)
 7. In GitHub Desktop choose where you want to save the TEI-Lisbon2019 clone on your computer
-8. If "Open in GitHub Desktop" doesn't work on your operating system, copy the link 
+8. If "Open in GitHub Desktop" doesn't work on your operating system, copy your forked repo's URL by clicking on the icon next to it.![Снимок экрана 2019-07-01 в 15.50.30](https://i.imgur.com/AadWYxR.png) Then 
 
 ### Sharing your work with others
 
