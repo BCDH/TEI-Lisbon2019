@@ -23,9 +23,14 @@ At the moment, it's quite empty, but don't worry, we'll fill it up with content 
 2. Inside the TEI-Lisbon2019 folder, go into the folder called "Participants"
 3. Inside "Participants", create a folder with your own full first and last name.
 4. Inside this folder, place the sample images/PDF files of your dictionary data.
-
+5. Go to GitHub Desktop. You should see something like this: ![Снимок экрана 2019-07-01 в 16.08.28](https://i.imgur.com/NYgy0VX.jpg) Note the "Changes" tab and the "History" tab.
+6. Click on "Commit to master". After committing, you should be seeing something like this: ![Снимок экрана 2019-07-01 в 16.08.57](https://i.imgur.com/E6UGJJG.png) Check the "History" tab to see your commit.
+7. Pay attention to the messages that GitHub is displaying to you and follow instructions to push to origin (i.e. to send your locally committed changes to your "origin", i.e. your forked repo.)
+8. Go to your fork on GitHub.com and you will see your first commit there.
 
 ### Sharing your work with others
+
+This may seem very complicated at first, but, once you get the hang of it, it will become much easier.
 
 #### First-time contribution
 
