@@ -39,6 +39,8 @@ At the moment, it's quite empty, but don't worry, we'll fill it up with content 
 5. **Create a pull request.**  
    This will alert the repository admin person that there are changes that should be merged into the original repository.
 
+![basic workflow](https://i.imgur.com/7DKZGc4.png)
+
 #### Subsequent contributions
 
 Before you make your next contribution, you have to make sure that your local branch is up to date and in sync with the original repo. Remember, you made a fork off of the original repo at some point, but other people may have contributed to it in the meantime. So it's very important that you follow  this procedure _every time_ you start doing work on your branch again.
