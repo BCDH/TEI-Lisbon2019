@@ -65,3 +65,5 @@ Before you make your next contribution, you have to make sure that your local br
    This will save your work to _your remote branch_.
 7. **Create a pull request.**  
   This will alert the repository admin person that there are changes in your fork that should be merged into the original repository.
+
+![sync](https://i.imgur.com/mu1HBVg.png)
