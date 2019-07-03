@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="mosaico" xml:lang="sp">
+            <form type="lemma"><orth norm="mosaico">mosaico</orth></form>
+            <gramGrp>
+               <pos norm="NOUN">n.</pos> <pos norm="SING">s.</pos>
+            </gramGrp>
+            <pc>(</pc>
+            <etym><cit type="etymon" xml:lang="en">
+                  <form><orth>mosaic</orth></form>
+               </cit><pc>;</pc>
+               <cit type="etymon" xml:lang="ge">
+                  <form><orth>Kleinmosaik, Mosaikfliese</orth></form>
+               </cit><pc>;</pc>
+               <cit type="etymon" xml:lang="fr">
+                  <form><orth>mosaique</orth></form>
+               </cit></etym>
+            <pc>). </pc>
+            <sense xml:id="mosaico.1"><def>pequeñas piezas de vidrio coloreado o de azulejo arcilloso
+                  colocadas de manera que formen un diseño o dibujo y puestas sobre una pared o el
+                  suelo</def></sense>
+            <pc>.</pc>
+         </entry>
+      </body>
+   </text>
+</TEI>
