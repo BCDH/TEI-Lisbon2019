@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DicEndo">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="DicEndo.hysterectomy" xml:lang="en">
+         <form type="lemma">
+            <orth>Hysterectomy</orth>
+            <pron><pc>/</pc>ˌhɪstəˈrektəmi<pc>/</pc></pron>
+         </form>
+         <gramGrp>
+            <gram type="pos">noun</gram>
+         </gramGrp>
+            <etym type="inheritance">
+               <cit type="etymon" xml:lang="el"><form><orth>hystéra</orth></form></cit>
+               <lbl>and</lbl>
+               <cit type="etymon" xml:lang="el"><form><orth>ektomia</orth></form></cit>
+            </etym>
+         <cit type="translationEquivalent">
+               <form xml:lang="fr">
+                  <orth>hystérectomie</orth>
+               </form>
+         </cit>
+         <pc>,</pc>
+         <cit type="translationEquivalent">
+               <form xml:lang="pt">
+                  <orth>histerectomia</orth>
+               </form>
+            </cit>
+         <sense xml:id="DicEndo.hysterectomy.1">
+            <def>Surgical removal of the uterus.</def>
+            <!--note is not allowed, but I'm not sure that dictScrap is expressive enough.-->
+            <note>When the ovaries and the fallopian tubes are also removed, it is called hysterectomy with bilateral
+            salpingo-oopherectomy.</note>
+         </sense>
+      </entry>
+      </body>
+   </text>
+</TEI>
