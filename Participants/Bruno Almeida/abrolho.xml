@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="DAP.abrolho" xml:lang="pt">
+            <form type="lemma">
+               <orth>Abrolho</orth>
+            </form>
+            <form type="variant">
+               <orth>Abroio</orth>
+            </form>
+            <sense xml:id="DAP.abrolho.1">
+               <def>Pequena peça de metal, normalmente de ferro, composta por quatro espetos
+                  (designados puas) orientados em diferentes direcções de maneira a que, uma vez
+                  deitadas por terra, fique sempre um espeto voltado para cima. Peça utilizada desde
+                  os tempos romanos, e também na Idade Média, para travar o avanço das forças
+                  militares, apeadas ou montadas.
+               </def>
+               <cit type="example">
+                  <bibl>Encontra-se descrito na Primera Crónica General,
+                     redigida por Afonso X, o Sábio:
+                  </bibl>
+                  <quote xml:lang="es">“...e avie en ellos III aquijones, et como quier
+                  que aquel cardo de fierro, que decimos abroio, caesse en tierra, el uno daqueles
+                  aquijones siempre se parava derecho arriba, et fincava en los pies a los omnes et
+                  en las unhas delos cavallos.”
+                  </quote>
+                  <bibl>(Cap. 1015).</bibl>
+               </cit>
+            </sense>
+            <dictScrap>Por vezes também é designado <orth>estrepe</orth>. [M.B.]</dictScrap>
+            <figure>
+               <head>2. Abrolho ou abroio</head>
+            </figure>
+         </entry>
+      </body>
+   </text>
+</TEI>
