@@ -13,6 +13,7 @@ entry {
 
 form[type = "lemma"] {
     font-weight: bold;
+    font-style: italic;
     color: #00cc99;
 }
 
@@ -23,7 +24,7 @@ sense bibl:before {
     content: " ";
 }
 
-gramGrp pos {
+gramGrp gram {
     color: #ff2600;
 }
 
