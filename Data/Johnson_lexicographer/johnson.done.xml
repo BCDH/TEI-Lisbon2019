@@ -23,15 +23,15 @@
             <form type="lemma">
                <orth norm="lexicographer">LEXICÓGRAPHER</orth>
             </form>
-            <gramGrp>
+            <gramGrp>                
                <pos norm="NOUN">n.s.</pos>
             </gramGrp>
-            <etym type="borrowing"><pc>[</pc><cit type="etymon">
-                  <form xml:lang="grc"><orth>λεξικὸν</orth></form>
-               </cit> and <cit type="etymon">
-                  <form xml:lang="grc"><orth>γράφω</orth></form>
-               </cit>; <cit type="etymon">
-                  <form xml:lang="fr">lexicographe</form>
+            <etym type="borrowing"><pc>[</pc><cit type="etymon" xml:lang="grc">
+                  <form><orth>λεξικὸν</orth></form>
+            </cit> <lbl>and</lbl> <cit type="etymon" xml:lang="grc">
+                  <form><orth>γράφω</orth></form>
+            </cit><pc>; </pc> <cit type="etymon" xml:lang="grc">
+                  <form>lexicographe</form>
                   <pc>,</pc>
                   <lang value="fr">Fr.</lang>
                </cit><pc>]</pc></etym>
