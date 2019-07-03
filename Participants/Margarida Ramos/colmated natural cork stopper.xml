@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="cork.terminology" xml:lang="pt">
+            <form><orth>colmated natural cork stopper</orth></form>
+            <gramGrp><gram type="pos"> n </gram></gramGrp>
+            <sense xml:id="cork.terminology.1">
+               <def>
+                  <bibl type="standard">ISO FDIS 633</bibl> <pc>-</pc> cork stopper made
+                     from natural corkwood <pc>.</pc> 
+                 <note> NOTE: Natural cork stoppers having been colmated
+                  (operation that consists in sealing the lenticels of the cork stoppers and/or
+                  disks with a mixture of glue and cork powder coming from finishing cork stopers)
+                  commonly receive the designatikon of colamted cork stoppers).</note></def>
+            </sense>
+            <bibl xml:lang="en">International Guide for buying cork stoppers for still wines</bibl>
+            <xr type="synonymy" xml:lang="pt"></xr><form><orth>rolha de cortiça colmatada</orth></form>
+            <xr type="synonymy" xml:lang="fr"></xr><form><orth>bouchon de liège colmaté</orth></form>
+         </entry>
+      </body>
+   </text>
+</TEI>
