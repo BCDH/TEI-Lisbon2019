@@ -20,17 +20,20 @@
       <body>
          <entry xml:id="muro" xml:lang="pt">
             <form type="lemma"><orth>muro</orth></form>
-            <gramGpr><gram type="pos">n.m.</gram></gramGpr>
+            <pron>ˈmuʀu</pron>
+            <gramGrp><gram type="pos">n.m.</gram></gramGrp>
             <sense xml:id="muro1">
                <def>Construcção de pedra ou de tejolos, etc., própria para vedar qualquer terreno
-                     ou recinto, ou para fortifcar um lugar, uma praça, etc.</def>
+                  ou recinto, ou para fortifcar um lugar, uma praça, etc.</def></sense>
             <sense xml:id="muro2">
-               <def>Construcção análoga para separar terrenos ou recintos.</def>
+               <def>Construcção análoga para separar terrenos ou recintos.</def></sense>
             <sense xml:id="muro3">
                <def>Qualquer construção para defesa, separação ou resguardo.</def>
+               <etym type="borrowing">latin</etym>
+               <cit type="translation" xml:lang="fr"> <quote>mur</quote></cit>
+               <cit type="translation" xml:lang="en"> <quote>wall</quote></cit>
             </sense>
-            <etym type="borrowing"> </etym>
-         </entry>
+        </entry>
       </body>
    </text>
 </TEI>
