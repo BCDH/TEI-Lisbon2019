@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -15,10 +15,25 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
+         <entry xml:id="muro" xml:lang="pt">
+            <form type="lemma"><orth>muro</orth></form>
+            <pron>ˈmuʀu</pron>
+            <gramGrp><gram type="pos">n.m.</gram></gramGrp>
+            <sense xml:id="muro1">
+               <def>Construcção de pedra ou de tejolos, etc., própria para vedar qualquer terreno
+                  ou recinto, ou para fortifcar um lugar, uma praça, etc.</def></sense>
+            <sense xml:id="muro2">
+               <def>Construcção análoga para separar terrenos ou recintos.</def></sense>
+            <sense xml:id="muro3">
+               <def>Qualquer construção para defesa, separação ou resguardo.</def>
+               <etym type="borrowing">latin</etym>
+               <cit type="translation" xml:lang="fr"> <quote>mur</quote></cit>
+               <cit type="translation" xml:lang="en"> <quote>wall</quote></cit>
+            </sense>
+        </entry>
       </body>
-  </text>
+   </text>
 </TEI>
