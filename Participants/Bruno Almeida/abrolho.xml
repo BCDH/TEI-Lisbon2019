@@ -23,6 +23,7 @@
                <orth>Abrolho</orth>
             </form>
             <form type="variant">
+               <lbl>ou</lbl>
                <orth>Abroio</orth>
             </form>
             <sense xml:id="DAP.abrolho.1">
@@ -30,22 +31,22 @@
                   (designados puas) orientados em diferentes direcções de maneira a que, uma vez
                   deitadas por terra, fique sempre um espeto voltado para cima. Peça utilizada desde
                   os tempos romanos, e também na Idade Média, para travar o avanço das forças
-                  militares, apeadas ou montadas.
-               </def>
+                  militares, apeadas ou montadas.</def>
                <cit type="example">
-                  <bibl>Encontra-se descrito na Primera Crónica General,
-                     redigida por Afonso X, o Sábio:
-                  </bibl>
-                  <quote xml:lang="es">“...e avie en ellos III aquijones, et como quier
-                  que aquel cardo de fierro, que decimos abroio, caesse en tierra, el uno daqueles
-                  aquijones siempre se parava derecho arriba, et fincava en los pies a los omnes et
-                  en las unhas delos cavallos.”
-                  </quote>
+                  <bibl>Encontra-se descrito na Primera Crónica General, redigida por Afonso X, o
+                     Sábio: </bibl>
+                  <quote xml:lang="es">“...e avie en ellos III aquijones, et como quier que aquel
+                     cardo de fierro, que decimos abroio, caesse en tierra, el uno daqueles
+                     aquijones siempre se parava derecho arriba, et fincava en los pies a los omnes
+                     et en las unhas delos cavallos.”</quote>
                   <bibl>(Cap. 1015).</bibl>
                </cit>
             </sense>
-            <dictScrap>Por vezes também é designado <orth>estrepe</orth>. [M.B.]</dictScrap>
+            <dictScrap>Por vezes também é designado<form type="variant">
+                  <orth>estrepe</orth></form>.</dictScrap>
+            <bibl>[M.B.]</bibl>
             <figure>
+               <graphic url="abrolho.png"/>
                <head>2. Abrolho ou abroio</head>
             </figure>
          </entry>
