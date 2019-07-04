@@ -110,9 +110,9 @@
                      <gram type="gen">-</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">synonym</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </form>
                
                <form type="lemma" xml:lang="en">
@@ -123,9 +123,9 @@
                      <gram type="gen">-</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">synonym</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </form>
                
                <cit type="translationEquivalent" xml:lang="es">
@@ -136,9 +136,9 @@
                      <gram type="gen">masculine</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">main term</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </cit>
                <cit type="translationEquivalent" xml:lang="es">
                   <form><orth>vertedero</orth></form>
@@ -148,9 +148,9 @@
                      <gram type="gen">masculine</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">synonym</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </cit>   
                <cit type="translationEquivalent" xml:lang="de">
                   <form><orth>Überlauf</orth></form>
@@ -160,9 +160,9 @@
                      <gram type="gen">masculine</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">main term</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </cit>
                <cit type="translationEquivalent" xml:lang="el">
                   <form><orth>υπερχειλιστής</orth></form>
@@ -172,9 +172,9 @@
                      <gram type="gen">masculine</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">main term</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </cit>
                <cit type="translationEquivalent" xml:lang="el">
                   <form><orth>υπερχειλιστήρας</orth></form>
@@ -184,9 +184,9 @@
                      <gram type="gen">masculine</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">synonym</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </cit>
                <cit type="translationEquivalent" xml:lang="el">
                   <form><orth>εκχειλιστής</orth></form>
@@ -196,9 +196,9 @@
                      <gram type="gen">masculine</gram>
                      <gram type="num">singular</gram>
                      <gram type="termType">synonym</gram>
-                     <gram type="context">-</gram>
-                     <gram type="note">-</gram>
                   </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
                </cit>
 
             </sense>
