@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="ICRP" xml:lang="pt">
+            <form type="lemma"><orth>ICRP</orth></form>
+            <gramGrp> <gram type="pos">s.f.</gram></gramGrp>
+            <usg type="domain">Metrol.</usg>
+             <sense xml:id="ICRP.1">
+                <def> Sigla de <cit type="translation" xml:lang="en"> <def>International Commission on Radiological Protection </def></cit> (Comissão Internacional da Protecção Radiológica).</def>
+            </sense>
+         </entry>
+      </body>
+   </text> <text>
+      <body>
+         <entry xml:id="lux" xml:lang="pt">
+            <form type="lemma"><orth>lux</orth></form>
+            <gramGrp> <gram type="pos">s.m.</gram></gramGrp>
+            <usg type="domain">Metrol.</usg>
+            <etym type="borrowing"><pc>[</pc> Do lat. 
+               <cit type="etymon" xml:lang="la">
+                  <form> <orth>lux</orth></form>
+               </cit> 'lux' <pc>]</pc>
+            </etym>
+            <sense xml:id="lux.1">
+               <def> Unidade de medida derivada coerente do SI para a iluminância,
+                 igual à iluminância produzida sobre uma superfície cuja área é 
+                 de 1 metro quadrado por um fluxo luminoso de 1 lúmen uniformemente
+                 distribuído sobre esta superfície (símb. lx).</def>
+            </sense>
+         </entry>
+      </body>
+   </text>
+</TEI>
