@@ -65,7 +65,7 @@ You should already be familiar with the fundamentals of the XML tree structure:
   <entry>
     <form type="lemma">
       <orth>lexicographer</orth>
-    </lemma>
+    </form>
     <gramGrp>
       <gram type="pos">noun</gram>
     </gramGrp>
