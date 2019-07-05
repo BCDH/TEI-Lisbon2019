@@ -1,8 +1,8 @@
 # XPath for Dictionary Nerds
 
 **Author:** Toma Tasovac ([@ttasovac](https://twitter.com/ttasovac))
-**Version:** 1.1.1
-**Date:** 2019-06-28
+**Version:** 1.1.2
+**Date:** 2019-07-05
 **License:** `CC BY-SA`
 
 **Table of Contents**
@@ -13,6 +13,12 @@
 	* [Introduction](#introduction)
 		* [What is XPath?](#what-is-xpath)
 		* [Prerequisites](#prerequisites)
+			* [Tree structure](#tree-structure)
+			* [Different ways of representing the tree structure](#different-ways-of-representing-the-tree-structure)
+				* [1. The world upside down](#1-the-world-upside-down)
+				* [2. Little boxes made of ticky-tacky](#2-little-boxes-made-of-ticky-tacky)
+				* [3. A folder, a folder, my kingdom for a folder!](#3-a-folder-a-folder-my-kingdom-for-a-folder)
+			* [Types of nodes in XML](#types-of-nodes-in-xml)
 		* [Another language? Why, oh why?](#another-language-why-oh-why)
 		* [What do I need to work with XPath?](#what-do-i-need-to-work-with-xpath)
 	* [XPath in oXygen](#xpath-in-oxygen)
@@ -38,11 +44,68 @@ XPath (XML Path Language) is a standard query language for selecting nodes from 
 
 In this tutorial, you will learn how to write XPath expressions in order to navigate around our XML-encoded dictionaries and select only those bits of data that you are interested in.
 
-<figure><img class="img-responsive" src="https://i.imgur.com/FvDO0J1.png" width="100%"><figcaption  style="color:gray;font-size:80%;text-align:right">Dictionary as a tree structure</figcaption></figure>
-
 ### Prerequisites
 
-You should already be familiar with types of nodes in XML:
+#### Tree structure
+
+You should already be familiar with the fundamentals of the XML tree structure:
+
+- The **root** element forms the basis of the XML tree and all other element nodes, attribute nodes and text nodes reach out like branches and leaves from this topmost element
+- Moreover, various relationships between elements exist. In the **child-parent relationship** one element (the child) is nested inside another element (the parent). In the following example, the element `<orth>` is nested in the element `<form>`. Consequently, `<orth>` is the child of `<form>` and `<form>` the parent of `<orth>`:
+
+
+  ```xml
+  <form type="lemma">
+    <orth>lexicographer</lemma>
+  </entry>
+  ```
+- A **sibling** relationship means that elements (the siblings) have the same parent element. For instance, in the following example, the elements `<form>`, `<gramGrp>` and `<sense>` have the same parent element and are hence siblings to each other:
+
+  ```xml
+  <entry>
+    <form type="lemma">
+      <orth>lexicographer</orth>
+    </lemma>
+    <gramGrp>
+      <gram type="pos">noun</gram>
+    </gramGrp>
+    <sense>
+      <def>A harmless drudge.</definition>
+      <cit type="example">
+        <quote>Some lexicographers are mad!</quote>
+      </cit>
+    </sense>
+  </entry>
+  ```
+- `<def>` is a child element of `<sense>` and a sibling of `<cit>` etc.
+
+#### Different ways of representing the tree structure
+
+To best understand the tree structure, you should find a way to visualize it that makes the most sense to you.
+
+##### 1. The world upside down
+
+Tree-structures resemble trees, but in a world turned upside-down: the root of the tree is at the top, and the branches are at the bottom. The root element has one or more children. Children with the same parent (there can be only one parent in XML) are siblings etc.
+
+![Снимок экрана 2019-07-05 в 16.00.22](https://i.imgur.com/YhTjSk7.png)
+
+##### 2. Little boxes made of ticky-tacky
+
+A different way of imagining the tree structure is to think of a series of boxes of different sizes. There is one giant box at the top, which contains a number of smaller boxes. Each of these can have one or more boxes inside. The boxes that live in the same bigger box are siblings etc.
+
+![Снимок экрана 2019-07-05 в 9.31.37](https://i.imgur.com/AI9kAtK.png)
+
+##### 3. A folder, a folder, my kingdom for a folder!
+
+Yet another way is to think of the tree structure as a bunch of folders on your computer. The root folder contains all the other folders. The folders that live inside one folder are siblings to each other etc.
+
+![Снимок экрана 2019-07-05 в 9.49.51](https://i.imgur.com/bxlpn5F.png)
+
+#### Types of nodes in XML
+
+You should already be familiar with the basics of XML notation:
+![img](http://i.imgur.com/kOweUG8.png)
+and different types of nodes in XML:
 
 - **element**
 - **attribute**
@@ -52,31 +115,7 @@ You should already be familiar with types of nodes in XML:
 - **comment**
 - **document**
 
-You should already be familiar with the fundamentals of the XML tree structure:
 
-- The **root** element forms the basis of the XML tree and all other element nodes, attribute nodes and text nodes reach out like branches and leaves from this topmost element
-- Moreover, various relationships between elements exist. In the **child-parent relationship** one element (the child) is nested inside another element (the parent). In the following example, the element `<lemma>` is nested in the element `<entry>`. Consequently, `<lemma>` is the child of `<entry>` and `<entry>` the parent of `<lemma>`:
-
-  ```xml
-  <entry>
-    <lemma>lexicographer</lemma>
-  </entry>
-  ```
-- A **sibling** relationship means that elements (the siblings) have the same parent element. For instance, in the following example, the elements `<lemma>`, `<grammar>` and `<sense>` have the same parent element and are hence siblings to each other:
-
-  ```xml
-  <entry>
-    <lemma>lexicographer</lemma>
-    <grammar>noun</grammar>
-    <sense>
-      <definition>A harmless drudge.</definition>
-      <example>Some lexicographers are mad!</example>
-    </sense>
-  </entry>
-  ```
-- `<definition>` is a child element of `<sense>` and a sibling of `<example>` etc.
-
-The root element, forms the basis of the XML tree and all other element nodes, attribute nodes and text nodes reach out like braches and leaves.
 
 ### Another language? Why, oh why?
 
