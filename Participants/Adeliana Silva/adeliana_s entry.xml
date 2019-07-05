@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <l>
+            <entry xml:id="acetyl" xml:lang="en">
+               <form type="lemma">
+                  <orth>acetyl</orth>
+                  <pron>(uh﹒SEET﹒ul)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>pertaining to what which is derived from acetic acid and found
+                     compounds.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry xml:id="acetylcholine" xml:lang="en">
+               <form type="lemma">
+                  <orth>acetylcholine</orth>
+                  <pron>(uh﹒SEET﹒ul﹒koh﹒leen)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>the acetic acid ester of choline, a constituint of many body tissues; used in
+                     treatment of some diseasses and for lowering of blood pressure; a
+                     neurotransmitter that plays a role in muscle contraction.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>acetylated</orth>
+                  <pron>(uh﹒SEET﹒ul﹒ayt﹒ed)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>any organic compound that has been heated with acetic anhydride or acetyl
+                     chloride to remove water.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>acetylated lanolin</orth>
+                  <pron>(uh﹒SEET﹒ul﹒ayt﹒ed LAN﹒ul﹒un)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>lanolin treated to be water resistant; used in cosmetics to reduce water loss
+                     from the skin; an emollient.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>ache</orth>
+                  <pron>(AYK)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>a dull, distressing, and often persistent pain.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>Achilles heel</orth>
+                  <pron>(uh﹒KIL﹒eez HEEL)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>calcaneal tendon; a tender or vulnerable sport associated with the Achilles
+                     tendon, which joins the muscles of the calf of the leg to the bone of the heel;
+                     named for the Greek hero, Achilles.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>achromasia</orth>
+                  <pron>(ak﹒roh﹒MAY﹒zhuh)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>a condition such as albanism or vitiligo in which there is loss of normal
+                     color or lack of melanin in the skin.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>acid</orth>
+                  <pron>(AS﹒ud)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>having a sour taste; an aqueous (water-based), solution; having a pH number
+                     below 7.0. The opposite ofan alkali or base; compounds of hydrogen, a
+                     non-metal, and sometimes oxygen that release hydrogen into a solution.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>acid balanced</orth>
+                  <pron>(AS﹒ud BAL﹒anst)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>describes a product whose pH level is stabilized; commonly used to refer to
+                     products such as shampoos and conditioners that are balanced to the pH of skin
+                     and hair which is 4.5-5.5.</def>
+               </sense>
+            </entry>
+         </l>
+         <l>
+            <entry>
+               <form type="lemma">
+                  <orth>acid mantle</orth>
+                  <pron>(AS﹒ud MAN﹒tul)</pron>
+               </form>
+               <pc>—</pc>
+               <sense>
+                  <def>the natural acidity of the skin or hair that helps retard irritation or
+                     bacterial growth.</def>
+               </sense>
+            </entry>
+         </l>
+      </body>
+   </text>
+</TEI>
