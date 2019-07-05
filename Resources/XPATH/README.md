@@ -56,8 +56,8 @@ You should already be familiar with the fundamentals of the XML tree structure:
 
   ```xml
   <form type="lemma">
-    <orth>lexicographer</lemma>
-  </entry>
+    <orth>lexicographer</orth>
+  </form>
   ```
 - A **sibling** relationship means that elements (the siblings) have the same parent element. For instance, in the following example, the elements `<form>`, `<gramGrp>` and `<sense>` have the same parent element and are hence siblings to each other:
 
@@ -70,7 +70,7 @@ You should already be familiar with the fundamentals of the XML tree structure:
       <gram type="pos">noun</gram>
     </gramGrp>
     <sense>
-      <def>A harmless drudge.</definition>
+      <def>A harmless drudge.</def>
       <cit type="example">
         <quote>Some lexicographers are mad!</quote>
       </cit>
