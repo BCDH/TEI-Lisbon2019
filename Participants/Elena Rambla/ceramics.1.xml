@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="abrasividad" xml:lang="sp"><form type="lemma"><orth norm="abrasividad"
+               >abrasividad<pc>;</pc></orth></form>
+            <sense xml:id="abrasividad.1"><def>capacidad para desgastatr por fricción
+            elementos en contacto con un cuerpo y que guarda relación con la cantidad y dureza de la
+            materia mineral que contiene dicho cuerpo<pc>.</pc></def></sense> <cit type="example"><quote>The low abradability of a pavement tile (0.06
+            g/sm) and staying power to sliding in winter are important features<pc>).</pc></quote></cit> </entry>
+      </body>
+   </text>
+</TEI>
