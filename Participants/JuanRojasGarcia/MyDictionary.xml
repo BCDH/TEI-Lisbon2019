@@ -20,7 +20,191 @@
    </teiHeader>
    <text>
       <body>
-         <entry></entry>
+         <entry xml:id="EcoLexicon.spillway" xml:lang="en">
+            <form type="lemma" xml:lang="en"><orth>spillway</orth></form>
+            <gramGrp>
+               <gram type="pos">noun</gram>
+               <gram type="proper">common</gram>
+               <gram type="gen">-</gram>
+               <gram type="num">singular</gram>
+               <gram type="termType">main term</gram>
+            </gramGrp>
+            <cit type="example"><quote>dghhg</quote></cit>
+            <note>hggjgh</note>
+            <sense xml:id="EcoLexicon.spillway.1" n="1">
+               <usg type="domain" xml:lang="en">Wastewater treatment</usg>
+               <def xml:lang="en">Final section of outfills that separate solid material collected,
+                  and which allow the flow of blackwaters, thus preventing their discharge into the
+                  channel or an excess volume of wastewater streams entering the water treatment
+                  plant.</def>
+               <def xml:lang="es">Parte final de los emisarios que separan el material sólido
+                  recogido por los colectores. Así, dejan pasar las aguas negras y evitan vertidos
+                  directos al cauce o una sobrecarga de caudales entrantes en la EDAR.</def>
+               <cit type="translationEquivalent" xml:lang="es">
+                  <form><orth>aliviadero</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">main term</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>fhfhgfh</note>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="de">
+                  <form><orth>Überlauf</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">main term</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="el">
+                  <form><orth>υπερχειλιστής</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">main term</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>ghfgjfjfg</note>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="el">
+                  <xr type="">
+                     
+                  </xr>
+                  <form><orth>υπερχειλιστήρας</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">synonym</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>
+               
+            </sense>
+            
+            <sense xml:id="EcoLexicon.spillway.2" n="2">
+               <usg type="domain" xml:lang="en">Coastal Engineering</usg>
+               <def xml:lang="en">Dam structure for the controlled release of flood flows from a dam
+                  or reservoir into a downstream area so that the water does not overtop and damage
+                  or even destroy the dam.</def>
+               <def xml:lang="es">Parte de las presas por la que se desalojan las aguas
+                  superficiales de un embalse para evitar su desbordamiento.</def>
+               
+               <form type="lemma" xml:lang="en">
+                  <orth>overflow</orth>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">-</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">synonym</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </form>
+               
+               <form type="lemma" xml:lang="en">
+                  <orth>overfall</orth>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">-</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">synonym</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </form>
+               
+               <cit type="translationEquivalent" xml:lang="es">
+                  <form><orth>aliviadero</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">main term</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="es">
+                  <form><orth>vertedero</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">synonym</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>   
+               <cit type="translationEquivalent" xml:lang="de">
+                  <form><orth>Überlauf</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">main term</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="el">
+                  <form><orth>υπερχειλιστής</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">main term</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="el">
+                  <form><orth>υπερχειλιστήρας</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">synonym</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="el">
+                  <form><orth>εκχειλιστής</orth></form>
+                  <gramGrp>
+                     <gram type="pos">noun</gram>
+                     <gram type="proper">common</gram>
+                     <gram type="gen">masculine</gram>
+                     <gram type="num">singular</gram>
+                     <gram type="termType">synonym</gram>
+                  </gramGrp>
+                  <cit type="example"><quote>dghhg</quote></cit>
+                  <note>hgghfh</note>
+               </cit>
+
+            </sense>
+
+
+         </entry>
       </body>
    </text>
 </TEI>
