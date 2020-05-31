@@ -1,0 +1,55 @@
+body {
+    font-family: "Lucida Grande", "Times New Roman", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+teiHeader {
+    display: none;
+}
+
+entry {
+    margin-bottom: 1em;
+    display: block;
+}
+
+form[type = "lemma"] {
+    font-style: italic;
+    color: brown;
+}
+
+sense:before,
+etym lang:before,
+sense cit:before,
+sense bibl:before {
+    content: " ";
+}
+
+gramGrp gram {
+    color: red;
+}
+
+sense def {
+    color: purple;
+}
+
+cit bibl {
+    color: #9437ff;
+}
+
+sense cit quote {
+    color: yellow;
+}
+
+
+etym {
+    color: black;
+}
+
+etym lang {
+    color: yellow;
+}
+
+etym form {
+    background-color: #0099ff;
+    color: #feffff;
+}
+
